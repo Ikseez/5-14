@@ -1,0 +1,72 @@
+code {
+    background-color: #ebebeb;
+    font-family: "SFMono-Regular", Consolas, Courier, monospace;
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.card-environment {
+    float: left;
+    width: 60%;
+}
+
+.instruction {
+    float: left;
+    width: 40%;
+    padding-right: 2em;
+}
+
+.main {
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+.clear {
+    clear: left;
+}
+
+#users-cards .ui.segment {
+   position: relative;
+   background: #fff;
+   box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+   margin: 1rem 0;
+	   margin-right: 1rem;
+   padding: 1em;
+   border-radius: .28571429rem;
+   border: 1px solid rgba(34,36,38,.15);
+}
+
+#users-cards .ui.button {
+   cursor: pointer;
+   display: inline-block;
+   min-height: 1em;
+   outline: 0;
+   border: 1em solid white;
+   vertical-align: baseline;
+   background: #e0e1e2;
+   color: rgba(0,0,0,.6);
+   font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+   margin: 0;
+   padding: .78571429em 1.5em;
+   border: 1em solid white;
+   text-transform: none;
+   text-shadow: none;
+   font-weight: 700;
+   line-height: 1em;
+   font-style: normal;
+   text-align: center;
+   text-decoration: none;
+   border-radius: .28571429rem;
+   box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34,36,38,.15) inset;
+   * {
+	   pointer-events:none;
+   }
+}
+
+
+#lifebar {
+	width: 5px;
+	height: 52px;
+	background-color: hsl(104, 50%, 50%);
+}
